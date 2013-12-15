@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FPAMainForm</class>
+ <widget class="QMainWindow" name="FPAMainForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Simulator</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionLoad_scene"/>
+    <addaction name="actionShow_points"/>
+    <addaction name="actionSave_scene"/>
+   </widget>
+   <widget class="QMenu" name="menuShow_view">
+    <property name="title">
+     <string>Work</string>
+    </property>
+    <addaction name="actionShow_view"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuShow_view"/>
+  </widget>
+  <action name="actionLoad_scene">
+   <property name="text">
+    <string>Load scene</string>
+   </property>
+  </action>
+  <action name="actionShow_points">
+   <property name="text">
+    <string>Show points</string>
+   </property>
+  </action>
+  <action name="actionSave_scene">
+   <property name="text">
+    <string>Save scene</string>
+   </property>
+  </action>
+  <action name="actionShow_view">
+   <property name="text">
+    <string>Show view</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
